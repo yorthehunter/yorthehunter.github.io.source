@@ -28,3 +28,13 @@ markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
 pygments: true
+
+# Jekyll assets pipeline
+assets:
+  sources:
+    - img
+    - _fonts
+    - js
+    - _scss
+    - css
+    - _bower_components
