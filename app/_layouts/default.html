@@ -12,30 +12,26 @@
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
+        <section class="site" role="main">
+          <header>
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
+          </header>
+          <section class="container">
+            {{ content }}
+          </section>
+          <footer>
+            <ul class="contact">
+              <li>
                 yorthehunter<br />
                 <a href="mailto:boru.design@gmail.com">boru.design@gmail.com</a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+              </li>
+              <li>
+                <a href="https://github.com/yorthehunter">github.com/yorthehunter</a><br />
+              </li>
+            </ul>
+          </footer>
+        </section>
 
     <!-- build:js({app,.tmp}) /js/scripts.js -->
     <script src="/js/main.js"></script>
