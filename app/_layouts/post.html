@@ -1,9 +1,25 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
+<article class="post">
+  <header class="text-c text-l-xs mb2 py8"
+          style="background-color: rgb({{page.rgb}});
+                 background-image: url({{ site.url }}/img/{{page.bgimage}});">
+    <div class="container">
+      <h2 class="f-lg m0"
+          style="background-color: rgba({{page.rgb}},0.8);
+                 color: {{page.textcolor}};">
+        {{ page.title }}
+      </h2>
+      <br>
+      <aside class="meta h4 thin p1 mt2"
+             style="background-color: rgba({{page.rgb}},0.8);
+                    color: {{page.textcolor}};">
+        {{ page.date | date_to_string }}
+      </aside>
+    </div>
+  </header>
+  <section class="post-content container contain-to-sm">
+    {{ content }}
+  </section>
+</article>

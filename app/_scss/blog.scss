@@ -1,0 +1,22 @@
+.post {
+
+  img {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  header {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h2 {
+      display: inline;
+    }
+
+    .meta {
+      display: inline-block;
+    }
+  }
+}
