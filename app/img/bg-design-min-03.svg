@@ -3,8 +3,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="900px" height="442.959px" viewBox="0 0 900 442.959" enable-background="new 0 0 900 442.959" xml:space="preserve">
-<rect fill="#544A00" width="900" height="442.959"/>
-<rect x="71.802" y="26.479" fill="#877300" width="792.397" height="390"/>
-<rect x="108.913" y="61.479" fill="#D2B900" width="650.174" height="320"/>
-<rect x="216.343" y="106.479" fill="#F7D700" width="467.313" height="230"/>
+<g>
+	<rect fill="#544A00" width="900" height="442.959"/>
+	<g>
+		<rect x="71.802" y="26.479" fill="#877300" width="792.397" height="390"/>
+		<rect x="108.913" y="61.479" fill="#D2B900" width="650.174" height="320"/>
+		<rect x="216.343" y="106.479" fill="#F7D700" width="467.313" height="230"/>
+	</g>
+</g>
 </svg>
